@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="caminhodofavicon">
     <link rel="stylesheet" href="./css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--defer é usado para o js não ser executado antes do html e css-->
+    <script defer src="./js/script.js"></script>
     <title>Pokédex</title>
 </head>
 <body>
@@ -25,6 +29,11 @@
             />
         </form>
 
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            
+            <button class="button btn-next">Nex &gt;</button>
+        </div>
         <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
     </main>
 
